@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP3C5E144) Path("C:/altera/13.1/1225/output_files/") File("lab22.sof") MfrSpec(OpMask(1));
+		Device PartName(EP3C5E144) Path("C:/Users/Jerry/Downloads/Tetris-master/Tetris-master/output_files/") File("lab22.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

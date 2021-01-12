@@ -1,0 +1,13 @@
+
+State Machine - |lab22|lcd:F5|state_c
+Name state_c.stop state_c.ROW2_ADDR state_c.WRITE state_c.ROW1_ADDR state_c.S3 state_c.S2 state_c.S1 state_c.S0 state_c.INIT state_c.IDLE 
+state_c.IDLE 0 0 0 0 0 0 0 0 0 0 
+state_c.INIT 0 0 0 0 0 0 0 0 1 1 
+state_c.S0 0 0 0 0 0 0 0 1 0 1 
+state_c.S1 0 0 0 0 0 0 1 0 0 1 
+state_c.S2 0 0 0 0 0 1 0 0 0 1 
+state_c.S3 0 0 0 0 1 0 0 0 0 1 
+state_c.ROW1_ADDR 0 0 0 1 0 0 0 0 0 1 
+state_c.WRITE 0 0 1 0 0 0 0 0 0 1 
+state_c.ROW2_ADDR 0 1 0 0 0 0 0 0 0 1 
+state_c.stop 1 0 0 0 0 0 0 0 0 1 
