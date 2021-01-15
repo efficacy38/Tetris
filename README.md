@@ -13,7 +13,7 @@
 ## 程式模組說明
 
 module lab22(//input Count,
-			output reg [7:0] DATA_R, DATA_G, DATA_B,       // 分別接到 8*8 led matrix 上的 CR_{1...8}, CG_{1...8}, CB_{1...8}
+output reg [7:0] DATA_R, DATA_G, DATA_B,       // 分別接到 8*8 led matrix 上的 CR_{1...8}, CG_{1...8}, CB_{1...8}
 			output reg [2:0] COMM,                                              //  接到 8* 8 led matrix 上的 s{1...3} 
       output reg [2:0] s = 3'b000,                                        // 測試當前block世哪個（don't care）
 			output reg [2:0] s4 = 3'b000,                                     // 測試當前block世哪個（don't care）
