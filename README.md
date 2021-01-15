@@ -11,7 +11,7 @@
 - lcd 顯示固定文字標題
 
 ## 程式模組說明
-
+```
 module lab22(//input Count,
 output reg [7:0] DATA_R, DATA_G, DATA_B,       // 分別接到 8*8 led matrix 上的 CR_{1...8}, CG_{1...8}, CB_{1...8}
 			output reg [2:0] COMM,                                              //  接到 8* 8 led matrix 上的 s{1...3} 
@@ -30,7 +30,7 @@ output reg [7:0] DATA_R, DATA_G, DATA_B,       // 分別接到 8*8 led matrix �
 			output	reg			lcd_en,                                               // 接到 lcd 的 e
 			output	reg	[7:0]	lcd_data	                                    // 接到 lcd 的 data input
 			);
-
+```
 ## 基本功能
 - 隨機出現一種方塊
 - 碰到底部或堆疊的方塊會停止 
